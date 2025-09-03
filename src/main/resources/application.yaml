@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+deepseek:
+  api-key: ${DEEPSEEK_API_KEY:sk-7a60affadbe944d49bc71295fca8d6d0}
+  base-url: https://api.deepseek.com/
+
+logging:
+  level:
+    ir.dotin.llmproxyserver: DEBUG
+    org.springframework.web: DEBUG
+    reactor.netty: DEBUG
+
+spring:
+  webflux:
+    timeout:
+      read: 30s
+      write: 30s
+
+
