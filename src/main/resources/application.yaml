@@ -2,7 +2,7 @@ server:
   port: 8080
 
 deepseek:
-  api-key: ${DEEPSEEK_API_KEY:sk-7a60affadbe944d49bc71295fca8d6d0}
+  api-key: ${DEEPSEEK_API_KEY}
   base-url: https://api.deepseek.com/
 
 logging:
